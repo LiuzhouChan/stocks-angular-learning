@@ -10,7 +10,6 @@ import { AppComponent } from './app.component';
 import { SummaryComponent } from './components/summary/summary.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { ManageComponent } from './components/manage/manage.component';
-import { Approutes } from './app.routes';
 
 @NgModule({
   declarations: [
@@ -23,8 +22,7 @@ import { Approutes } from './app.routes';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule,
-    Approutes
+    FormsModule
   ],
   providers: [StocksService],
   bootstrap: [AppComponent]
